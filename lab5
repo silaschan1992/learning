@@ -1,0 +1,19 @@
+# height = float(input('height\n'))
+# weight = float(input('weight\n'))
+# height2=float(height)/100
+# height /= 100
+#BMI = weight / height ** 2
+BMI=18.5
+BMI: float = round(BMI, 1)
+print(f'your bmi is {BMI}')
+if BMI < 18.5:
+    print('too light')
+elif BMI < 24:
+    print('normal')
+elif BMI < 27:
+    print('little Fat')
+elif BMI<35:
+    print('middle fat')
+else:
+    print('super fat')
+
